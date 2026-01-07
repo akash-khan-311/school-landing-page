@@ -26,7 +26,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className=" min-h-screen flex items-center overflow-hidden">
+    <div className=" flex items-center overflow-hidden">
       {/* Background Images */}
       {images.map((img, index) => (
         <div
