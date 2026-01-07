@@ -43,6 +43,9 @@ const en = {
       "We provide quality education with experienced teachers and modern facilities.",
     cta: "Apply for Admission",
   },
+  admissionButton: {
+    title: "Admission",
+  },
   about: {
     title: "About our School",
     subTitle:

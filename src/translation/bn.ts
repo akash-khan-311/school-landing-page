@@ -22,6 +22,9 @@ import {
 
 const bn = {
   schoolName: "গ্লোবাল ট্যালেন্ট স্কুল এন্ড কলেজ",
+  admissionButton: {
+    title: "আবেদন করুন",
+  },
   hero: {
     fixedTitle: "শিক্ষার পূর্ণ যাত্রা শুরু হোক",
     typingTitles: [
