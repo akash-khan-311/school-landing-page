@@ -1,19 +1,8 @@
 "use client";
-import { useForm } from "react-hook-form";
-import { Mail, Phone } from "lucide-react";
-import SectionTitle from "@/components/Shared/SectionTitle";
 import { useTranslation } from "@/hooks/useTranslation";
 import Container from "@/components/Shared/Container";
 import ContactForm from "@/components/ContactForm";
 import ContactCard from "@/components/ui/Card/ContactCard";
-
-interface FormData {
-  name: string;
-  email: string;
-  phone: string;
-  message: string;
-}
-
 export default function Contact() {
   const { contactData } = useTranslation();
   return (
