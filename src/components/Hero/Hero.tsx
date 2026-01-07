@@ -26,7 +26,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className=" flex items-center overflow-hidden">
+    <div className="flex items-center overflow-hidden">
       {/* Background Images */}
       {images.map((img, index) => (
         <div
@@ -42,7 +42,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/60" />
 
       {/* Content */}
-      <div className="relative z-10 w-full py-20">
+      <div className="relative z-10 w-full py-40 ">
         <Container>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Text */}

@@ -53,13 +53,12 @@ export default function Navbar() {
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: "smooth", block: "start" });
-      setIsMenuOpen(false); // Close mobile menu
+      setIsMenuOpen(false);
     }
   };
   return (
     <>
       <motion.header
-        data-aos="zoom-out-down"
         ref={ref}
         className={`${
           visible && "bg-white shadow-2xl"
