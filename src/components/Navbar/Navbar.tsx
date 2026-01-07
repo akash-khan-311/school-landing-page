@@ -1,17 +1,15 @@
 "use client";
 import { useState, useEffect, useMemo, useRef } from "react";
-import { Menu, X, MapPin, Phone, Mail } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Container from "../Shared/Container";
 import Logo from "../Shared/Logo";
 
 import { motion, useMotionValueEvent, useScroll } from "motion/react";
 import AdmissionButton from "../Shared/AdmissionButton";
-import contactInfo from "@/data/contact.data";
 import { useScrollSpy } from "@/hooks/useScrollSpy";
 import LanguageSwitcher from "../LanguageSwither/LanguageSwither";
 import { useTranslation } from "@/hooks/useTranslation";
 export default function Navbar() {
-  const { address, email, phone } = contactInfo;
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const ref = useRef<HTMLDivElement>(null);
@@ -61,39 +59,13 @@ export default function Navbar() {
   return (
     <>
       <motion.header
+        data-aos="zoom-out-down"
         ref={ref}
         className={`${
           visible && "bg-white shadow-2xl"
         } transition-all duration-300 fixed top-0 left-0 w-full z-50  `}
       >
         <Container>
-          <div
-            className={`${
-              visible ? "hidden" : "flex"
-            } justify-center flex-wrap items-center bg-primary py-2 gap-x-10 md:w-4/6 mx-auto rounded-2xl`}
-          >
-            {/* Address */}
-            <div className="flex items-center gap-x-3 text-white">
-              <span>
-                <MapPin size={20} />
-              </span>
-              <span>{address}</span>
-            </div>
-            {/* email */}
-            <div className="flex items-center gap-x-3 text-white">
-              <span>
-                <Mail size={20} />
-              </span>
-              <span>{email}</span>
-            </div>
-            {/* phone */}
-            <div className="flex items-center gap-x-3 text-white">
-              <span>
-                <Phone size={20} />
-              </span>
-              <span>{phone}</span>
-            </div>
-          </div>
           {/* Navigation Bar */}
           <div className="flex py-4 items-center justify-between">
             {/* Logo Section */}

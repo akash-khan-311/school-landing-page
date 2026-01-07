@@ -14,7 +14,7 @@ export default function AboutCard({ card }: Props) {
   const { Icon, title, des } = card;
   console.log("ICON VALUE 👉", Icon); //
   return (
-    <div>
+    <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       <div className="p-6 bg-white rounded-lg shadow-[0px_0px_16px_5px_rgba(0,0,0,0.1)] flex flex-col items-center text-center">
         {/* Lucide Icon */}
 

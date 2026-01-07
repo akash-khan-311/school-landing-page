@@ -59,7 +59,7 @@ export default function AboutWithVideo() {
           </div>
 
           {/* Right: Description + Points */}
-          <div className="md:w-1/3 space-y-6">
+          <div data-aos="fade-left" className="md:w-1/3 space-y-6">
             <p className="text-gray-700 ">{aboutVideoContent.des}</p>
             <div className="space-y-4">
               {aboutVideoContent.points.map((point, index) => (

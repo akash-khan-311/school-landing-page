@@ -10,6 +10,7 @@ export default function SectionTitle({ title, subtitle, white }: Props) {
   return (
     <div className="text-center mx-auto ">
       <h1
+        data-aos="fade-down"
         className={`text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-tight ${
           white ? "text-white" : "text-secondary"
         }`}

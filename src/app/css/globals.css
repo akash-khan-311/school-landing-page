@@ -47,6 +47,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  overflow-x: hidden;
+}
 
 :root {
   --color-primary: #043361; /* School main color */

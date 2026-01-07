@@ -18,27 +18,6 @@ export default function Gallery() {
               <GalleryBox key={img.id} img={img} />
             ))}
           </PhotoProvider>
-          {/* <div className="col-span-2">
-            <GalleryBox img={img1} />
-          </div>
-          <div className="">
-            <GalleryBox img={img4} />
-          </div>
-          <div>
-            <GalleryBox img={img5} />
-          </div>
-          <div>
-            <GalleryBox img={img6} />
-          </div>
-          <div>
-            <GalleryBox img={img7} />
-          </div>
-          <div className="">
-            <GalleryBox img={img8} />
-          </div>
-          <div className="col-span-2">
-            <GalleryBox img={img3} />
-          </div> */}
         </div>
       </div>
     </Container>

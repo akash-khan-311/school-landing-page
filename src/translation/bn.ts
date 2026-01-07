@@ -1,12 +1,19 @@
 import {
   Award,
+  Facebook,
   FilePenLine,
   Flag,
   Heart,
+  Instagram,
   Leaf,
+  Linkedin,
+  Mail,
+  MapPin,
+  Phone,
   Rss,
   School,
   Trophy,
+  Twitter,
   UserPlus,
   UserRoundPen,
   Users,
@@ -410,6 +417,47 @@ const bn = {
       Icon: Award,
       text: "আবেদন করুন",
     },
+  },
+  contactData: {
+    contactInfo: [
+      {
+        name: "ইমেইল ঠিকানা",
+        value: "gtsc@gmail.com",
+        Icon: Mail,
+      },
+      {
+        name: "ফোন নম্বর",
+        value: "+৮৮০ ১৭১৯৬-১১৫০",
+        Icon: Phone,
+      },
+      {
+        name: "ঠিকানা",
+        value: "৭৩/১ ডায়মন্ড টাওয়ার, বাড্ডা, ঢাকা",
+        Icon: MapPin,
+      },
+    ],
+    socialInfo: [
+      {
+        name: "ফেসবুক",
+        url: "https://www.facebook.com/seraprogrammer",
+        Icon: Facebook,
+      },
+      {
+        name: "টুইটার",
+        url: "https://twitter.com/seraprogrammer",
+        Icon: Twitter,
+      },
+      {
+        name: "ইনস্টাগ্রাম",
+        url: "https://www.instagram.com/seraprogrammer/",
+        Icon: Instagram,
+      },
+      {
+        name: "লিংকডইন",
+        url: "https://www.linkedin.com/in/seraprogrammer/",
+        Icon: Linkedin,
+      },
+    ],
   },
 };
 
