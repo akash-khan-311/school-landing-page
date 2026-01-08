@@ -4,15 +4,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules"; // <-- Swiper v10+ এ modules path
 import "swiper/css";
 import "swiper/css/pagination";
-import TeacherCard from "@/components/Shared/TeacherCard";
 
-export default function TeacherSlider({ teachers }: { teachers: any[] }) {
+import TeacherCard from "@/components/Shared/TeacherCard";
+import { Teacher } from "@/types/type";
+
+export default function TeacherSlider({ teachers }: { teachers: Teacher[] }) {
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
       <Swiper
         modules={[Pagination]} // <-- modules array এ Pagination
-        spaceBetween={30}
+        spaceBetween={50}
         slidesPerView={2}
+        loop={true}
         pagination={{
           clickable: true,
           bulletClass: "custom-bullet",

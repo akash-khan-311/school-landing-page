@@ -125,7 +125,7 @@ const en = {
       {
         name: "Laila Noor",
         designation: "Chemistry Teacher",
-        image: "/images/teachers/teacher.webp",
+        image: "/images/teachers/teacher.jpg",
         bio: "Laila Noor is an experienced chemistry teacher who focuses on practical learning and student engagement in the classroom.",
         skills: [
           { name: "Mathematic Skill", value: 80 },
@@ -137,7 +137,7 @@ const en = {
       {
         name: "Rahim Uddin",
         designation: "Physics Teacher",
-        image: "/images/teachers/teacher.webp",
+        image: "/images/teachers/teacher.jpg",
         bio: "Rahim Uddin has a strong background in physics and enjoys making complex concepts simple for students.",
         skills: [
           { name: "Mathematic Skill", value: 85 },
@@ -149,7 +149,7 @@ const en = {
       {
         name: "Nusrat Jahan",
         designation: "Biology Teacher",
-        image: "/images/teachers/teacher.webp",
+        image: "/images/teachers/teacher.jpg",
         bio: "Nusrat Jahan specializes in biology and encourages curiosity-based learning among students.",
         skills: [
           { name: "Biology Skill", value: 93 },
@@ -161,7 +161,7 @@ const en = {
       {
         name: "Arif Hasan",
         designation: "Mathematics Teacher",
-        image: "/images/teachers/teacher.webp",
+        image: "/images/teachers/teacher.jpg",
         bio: "Arif Hasan is passionate about mathematics and problem-solving techniques for academic excellence.",
         skills: [
           { name: "Mathematic Skill", value: 95 },
@@ -173,7 +173,7 @@ const en = {
       {
         name: "Farzana Akter",
         designation: "English Teacher",
-        image: "/images/teachers/teacher.webp",
+        image: "/images/teachers/teacher.jpg",
         bio: "Farzana Akter focuses on improving students’ communication, grammar, and confidence in English.",
         skills: [
           { name: "English Skill", value: 94 },
@@ -185,7 +185,7 @@ const en = {
       {
         name: "Imran Hossain",
         designation: "ICT Teacher",
-        image: "/images/teachers/teacher.webp",
+        image: "/images/teachers/teacher.jpg",
         bio: "Imran Hossain teaches information technology with a practical and project-based approach.",
         skills: [
           { name: "ICT Skill", value: 96 },
@@ -197,7 +197,7 @@ const en = {
       {
         name: "Sadia Rahman",
         designation: "Bangla Teacher",
-        image: "/images/teachers/teacher.webp",
+        image: "/images/teachers/teacher.jpg",
         bio: "Sadia Rahman is dedicated to teaching Bangla literature and grammar with creativity and care.",
         skills: [
           { name: "Bangla Grammar", value: 92 },
@@ -209,7 +209,7 @@ const en = {
       {
         name: "Tanvir Ahmed",
         designation: "General Science Teacher",
-        image: "/images/teachers/teacher.webp",
+        image: "/images/teachers/teacher.jpg",
         bio: "Tanvir Ahmed combines multiple science disciplines to create a strong foundation for students.",
         skills: [
           { name: "Physics Skill", value: 80 },
@@ -221,7 +221,7 @@ const en = {
       {
         name: "Maliha Islam",
         designation: "Social Science Teacher",
-        image: "/images/teachers/teacher.webp",
+        image: "/images/teachers/teacher.jpg",
         bio: "Maliha Islam teaches social studies with real-world examples and interactive discussions.",
         skills: [
           { name: "History", value: 90 },
@@ -233,7 +233,7 @@ const en = {
       {
         name: "Sabbir Khan",
         designation: "Accounting Teacher",
-        image: "/images/teachers/teacher.webp",
+        image: "/images/teachers/teacher.jpg",
         bio: "Sabbir Khan specializes in accounting and business studies with a focus on practical knowledge.",
         skills: [
           { name: "Accounting", value: 95 },
@@ -245,7 +245,7 @@ const en = {
       {
         name: "Jannatul Ferdous",
         designation: "Economics Teacher",
-        image: "/images/teachers/teacher.webp",
+        image: "/images/teachers/teacher.jpg",
         bio: "Jannatul Ferdous explains economic concepts clearly and relates them to everyday life.",
         skills: [
           { name: "Economics", value: 93 },
@@ -257,7 +257,7 @@ const en = {
       {
         name: "Hasan Mahmud",
         designation: "Physical Education Teacher",
-        image: "/images/teachers/teacher.webp",
+        image: "/images/teachers/teacher.jpg",
         bio: "Hasan Mahmud promotes physical fitness, discipline, and teamwork among students.",
         skills: [
           { name: "Physical Training", value: 96 },

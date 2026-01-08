@@ -139,8 +139,7 @@ const bn = {
       {
         name: "লায়লা নূর",
         designation: "রসায়ন শিক্ষক",
-        image:
-          "https://images.stockcake.com/public/4/7/d/47da8a45-1484-44e7-86ec-2a3b06bdf45c_large/confident-professional-teacher-stockcake.jpg",
+        image: "/images/teachers/teacher.jpg",
         bio: "লায়লা নূর একজন অভিজ্ঞ রসায়ন শিক্ষক, যিনি বাস্তবভিত্তিক শেখানো ও শিক্ষার্থীদের সক্রিয় অংশগ্রহণে গুরুত্ব দেন।",
         skills: [
           { name: "গণিত দক্ষতা", value: 80 },
@@ -152,8 +151,7 @@ const bn = {
       {
         name: "রহিম উদ্দিন",
         designation: "পদার্থবিজ্ঞান শিক্ষক",
-        image:
-          "https://images.stockcake.com/public/4/7/d/47da8a45-1484-44e7-86ec-2a3b06bdf45c_large/confident-professional-teacher-stockcake.jpg",
+        image: "/images/teachers/teacher.jpg",
         bio: "রহিম উদ্দিন সহজ ভাষায় কঠিন পদার্থবিজ্ঞানের ধারণা উপস্থাপনে দক্ষ একজন শিক্ষক।",
         skills: [
           { name: "গণিত দক্ষতা", value: 85 },
@@ -165,8 +163,7 @@ const bn = {
       {
         name: "নুসরাত জাহান",
         designation: "জীববিজ্ঞান শিক্ষক",
-        image:
-          "https://images.stockcake.com/public/4/7/d/47da8a45-1484-44e7-86ec-2a3b06bdf45c_large/confident-professional-teacher-stockcake.jpg",
+        image: "/images/teachers/teacher.jpg",
         bio: "নুসরাত জাহান শিক্ষার্থীদের মধ্যে কৌতূহল সৃষ্টি করে জীববিজ্ঞান শেখাতে ভালোবাসেন।",
         skills: [
           { name: "জীববিজ্ঞান দক্ষতা", value: 93 },
@@ -178,8 +175,7 @@ const bn = {
       {
         name: "আরিফ হাসান",
         designation: "গণিত শিক্ষক",
-        image:
-          "https://images.stockcake.com/public/4/7/d/47da8a45-1484-44e7-86ec-2a3b06bdf45c_large/confident-professional-teacher-stockcake.jpg",
+        image: "/images/teachers/teacher.jpg",
         bio: "আরিফ হাসান গণিতকে সহজ ও আনন্দদায়কভাবে উপস্থাপন করার জন্য পরিচিত।",
         skills: [
           { name: "গণিত দক্ষতা", value: 95 },
@@ -191,8 +187,7 @@ const bn = {
       {
         name: "ফারজানা আক্তার",
         designation: "ইংরেজি শিক্ষক",
-        image:
-          "https://images.stockcake.com/public/4/7/d/47da8a45-1484-44e7-86ec-2a3b06bdf45c_large/confident-professional-teacher-stockcake.jpg",
+        image: "/images/teachers/teacher.jpg",
         bio: "ফারজানা আক্তার শিক্ষার্থীদের ইংরেজি যোগাযোগ দক্ষতা ও আত্মবিশ্বাস বাড়াতে কাজ করেন।",
         skills: [
           { name: "ইংরেজি দক্ষতা", value: 94 },
@@ -204,8 +199,7 @@ const bn = {
       {
         name: "ইমরান হোসেন",
         designation: "আইসিটি শিক্ষক",
-        image:
-          "https://images.stockcake.com/public/4/7/d/47da8a45-1484-44e7-86ec-2a3b06bdf45c_large/confident-professional-teacher-stockcake.jpg",
+        image: "/images/teachers/teacher.jpg",
         bio: "ইমরান হোসেন প্রকল্পভিত্তিক পদ্ধতিতে তথ্য ও যোগাযোগ প্রযুক্তি শেখান।",
         skills: [
           { name: "আইসিটি দক্ষতা", value: 96 },
@@ -217,8 +211,7 @@ const bn = {
       {
         name: "সাদিয়া রহমান",
         designation: "বাংলা শিক্ষক",
-        image:
-          "https://images.stockcake.com/public/4/7/d/47da8a45-1484-44e7-86ec-2a3b06bdf45c_large/confident-professional-teacher-stockcake.jpg",
+        image: "/images/teachers/teacher.jpg",
         bio: "সাদিয়া রহমান বাংলা সাহিত্য ও ব্যাকরণ সৃজনশীলভাবে শেখাতে আগ্রহী।",
         skills: [
           { name: "বাংলা ব্যাকরণ", value: 92 },
@@ -230,8 +223,7 @@ const bn = {
       {
         name: "তানভীর আহমেদ",
         designation: "সাধারণ বিজ্ঞান শিক্ষক",
-        image:
-          "https://images.stockcake.com/public/4/7/d/47da8a45-1484-44e7-86ec-2a3b06bdf45c_large/confident-professional-teacher-stockcake.jpg",
+        image: "/images/teachers/teacher.jpg",
         bio: "তানভীর আহমেদ বিভিন্ন বিজ্ঞান বিষয় একত্রে উপস্থাপন করে শিক্ষার্থীদের ভিত্তি মজবুত করেন।",
         skills: [
           { name: "পদার্থবিজ্ঞান দক্ষতা", value: 80 },
@@ -243,8 +235,7 @@ const bn = {
       {
         name: "মালিহা ইসলাম",
         designation: "সামাজিক বিজ্ঞান শিক্ষক",
-        image:
-          "https://images.stockcake.com/public/4/7/d/47da8a45-1484-44e7-86ec-2a3b06bdf45c_large/confident-professional-teacher-stockcake.jpg",
+        image: "/images/teachers/teacher.jpg",
         bio: "মালিহা ইসলাম বাস্তব উদাহরণের মাধ্যমে সামাজিক বিজ্ঞান পড়াতে পছন্দ করেন।",
         skills: [
           { name: "ইতিহাস", value: 90 },
@@ -256,8 +247,7 @@ const bn = {
       {
         name: "সাব্বির খান",
         designation: "হিসাববিজ্ঞান শিক্ষক",
-        image:
-          "https://images.stockcake.com/public/4/7/d/47da8a45-1484-44e7-86ec-2a3b06bdf45c_large/confident-professional-teacher-stockcake.jpg",
+        image: "/images/teachers/teacher.jpg",
         bio: "সাব্বির খান হিসাববিজ্ঞান ও ব্যবসায় শিক্ষা ব্যবহারিকভাবে শেখাতে দক্ষ।",
         skills: [
           { name: "হিসাববিজ্ঞান", value: 95 },
@@ -269,8 +259,7 @@ const bn = {
       {
         name: "জান্নাতুল ফেরদৌস",
         designation: "অর্থনীতি শিক্ষক",
-        image:
-          "https://images.stockcake.com/public/4/7/d/47da8a45-1484-44e7-86ec-2a3b06bdf45c_large/confident-professional-teacher-stockcake.jpg",
+        image: "/images/teachers/teacher.jpg",
         bio: "জান্নাতুল ফেরদৌস অর্থনীতির বিষয়গুলো দৈনন্দিন জীবনের সাথে মিলিয়ে ব্যাখ্যা করেন।",
         skills: [
           { name: "অর্থনীতি", value: 93 },
@@ -282,8 +271,7 @@ const bn = {
       {
         name: "হাসান মাহমুদ",
         designation: "শারীরিক শিক্ষা শিক্ষক",
-        image:
-          "https://images.stockcake.com/public/4/7/d/47da8a45-1484-44e7-86ec-2a3b06bdf45c_large/confident-professional-teacher-stockcake.jpg",
+        image: "/images/teachers/teacher.jpg",
         bio: "হাসান মাহমুদ শিক্ষার্থীদের শারীরিক সুস্থতা, শৃঙ্খলা ও দলগত কাজের গুরুত্ব শেখান।",
         skills: [
           { name: "শারীরিক প্রশিক্ষণ", value: 96 },
